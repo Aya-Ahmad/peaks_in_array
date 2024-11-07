@@ -27,4 +27,4 @@ else:
         values = int ( input("Enter your values: ") )
         array.append( values )
     indices_array = FindPeaks ( array )
-    print ("Lets find some peaks!",indices_array )
+    print ("Lets find some peaks! Peaks in your array correspond to the indices",indices_array )
